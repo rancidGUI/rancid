@@ -1,0 +1,42 @@
+#
+# Fichier de configuration de l'interface Wui for rancid
+#
+[API_URL]
+API_URL=""
+#
+#
+[CLOGINRC] # logiquement toujours /home/rancid/
+#CLOGINRC_FILE_PATH=/usr/local/Cellar/rancid/3.2/share/rancid/cloginrc.sample
+#staging
+CLOGINRC_FILE_PATH=/home/rancid/.cloginrc
+#
+[RANCID_CONF]
+#RANCID_CONF_PATH=/usr/local/Cellar/rancid/3.2/etc/rancid.conf
+#staging
+RANCID_CONF_PATH=/opt/rancid/etc/rancid.conf
+#
+[ROUTER_DB]
+#ROUTER_DB_DIR=/usr/local/Cellar/rancid/3.2/var/
+#staging
+ROUTER_DB_DIR=/opt/rancid/var/
+#
+[CRONJOB]
+# * * * * * *
+# | | | | | |
+# | | | | | +-- Year              (range: 1900-3000)
+# | | | | +---- Day of the Week   (range: 1-7, 1 standing for Monday)
+# | | | +------ Month of the Year (range: 1-12)
+# | | +-------- Day of the Month  (range: 1-31)
+# | +---------- Hour              (range: 0-23)
+# +------------ Minute            (range: 0-59)
+#
+#
+MIN=
+HOUR=
+DAY=
+MONTH=
+DAY_OF_THE_WEEK=
+YEAR=
+
+[TFTP]
+Tftp_url=
